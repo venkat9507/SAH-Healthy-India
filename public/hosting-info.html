@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            color: black;
+            font-family: Tahoma;
+            font-size: medium;
+        }
+
+        h1 {
+            color: black;
+            font-family: Tahoma;
+            font-size: medium;
+        }
+
+        p {
+            color: black;
+            font-family: Tahoma;
+            font-size: medium;
+        }
+
+        #err {
+            color: red;
+        }
+
+        #inf {
+            color: green;
+        }
+
+        #war {
+            color: orange;
+        }
+
+        #log {
+            font-family: "Tahoma";
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #log td, #log th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #log tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #log tr:hover {
+                background-color: #ddd;
+            }
+
+            #log th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #808080;
+                color: white;
+            }
+    </style>
+    <meta charset="UTF-8">
+    <title>Log Report</title>
+</head>
+<body>
+    <h1>Hosting Report</h1>
+    <p>Website hosted on 18-Sep-2019 05:03 PM</p>
+    <table id="log">
+        <colgroup>
+            <col span="0" style="width:200px;">
+            <col span="1" style="width:150px;">
+        </colgroup>
+        <tr>
+            <th>Log Date</th>
+            <th>Log Type</th>
+            <th>Details</th>
+        </tr>
+       <tr id="inf"><td>190918 17:00:30</td><td>INFO</td><td>10S Hosting Started</td><tr id="inf"><td>190918 17:00:34</td><td>INFO</td><td>Source files: 85.0 MB</td><tr id="inf"><td>190918 17:00:41</td><td>INFO</td><td>Build SUCCESS</td><tr id="inf"><td>190918 17:00:42</td><td>INFO</td><td>Published files: 28.3 MB</td><tr id="inf"><td>190918 17:00:43</td><td>INFO</td><td>Backup found: 0</td><tr id="inf"><td>190918 17:01:01</td><td>INFO</td><td>Backup file: 10.1 MB</td><tr id="inf"><td>190918 17:03:31</td><td>INFO</td><td>Hosting completed in 182 seconds</td><tr id="inf"><td>190918 17:03:32</td><td>INFO</td><td>Total time taken 4 minutes</td><tr id="inf"><td>190918 17:03:33</td><td>INFO</td><td>Assembly Version: </td><tr id="inf"><td>190918 17:03:33</td><td>INFO</td><td>File Version: </td>
+   </table>
+</body>
+</html>
+
+

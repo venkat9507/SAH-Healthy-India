@@ -1,0 +1,219 @@
+﻿/*****************************/
+/*** Core html setup stuff ***/
+/*****************************/
+.inputbox, .button, .login-fields input { 
+	border: 1px solid #000;
+	background:#b6c707;
+	color:#000; 
+}
+.inputbox:hover, .button:hover, .login-fields input:hover { background:#0a2f04; color:#78ff63; }
+
+a:link, a:visited {color: #4e6d09;}
+a:hover, a:active, a:focus {color: #7b3c04;}
+
+body {background: #0a2f04; /*#0a2f04;*/}
+#wrapper {}
+body, td, div, p {color: #000;}
+
+/*****************************************/
+/*** Template specific layout elements ***/
+/*****************************************/
+#header{/*background: url(../images/bkg_top.jpg) top left no-repeat;*/}
+#header2{background: url(../images/bkg_header.jpg) top left no-repeat;}
+#title {color: #000; text-shadow:1px 1px #7c9fa2;}
+
+/**********************/
+/*** Top Navigation ***/
+/**********************/
+#topnavi {background: url(../images/bkg_topnavi.jpg) top left no-repeat;}
+#topnavi ul {background: url(../images/bkg_but_separator.gif) top left no-repeat;}
+#topnavi ul li {background: url(../images/bkg_but_separator.gif) top right no-repeat;}
+#topnavi ul li a {}
+#topnavi ul li a {color: #5B6601; background: url(../images/bkg_but.gif) top left repeat-x;}
+#topnavi ul li a:hover, #topnavi li#current a {}
+#topnavi ul li a:hover, #topnavi li.current a {color: #fff; background: url(../images/bkg_but.gif) bottom left repeat-x;}
+
+/**********************/
+/*** User 4 (Search menu) ***/
+/**********************/
+/*#search {background: url(../images/bkg_search.png) top left no-repeat;}*/
+#search div.search .inputbox{
+	border: none;
+	background:transparent;
+	color:#000;
+}
+
+/**********************/
+/*** Top (Newsflash) ***/
+/**********************/
+/**********************/
+/*** Main Body ***/
+/**********************/
+#main{background: #EDFEEC;}
+/**********************/
+/*** Left Column ***/
+/**********************/
+#leftcol h3{
+	color: #000;
+}
+
+#leftcol div.module_menu div div, #leftcol div.module div div, #leftcol div.moduletable_menu div div, #leftcol div.moduletable div div{
+}
+#leftcol div.module_menu div div div, #leftcol div.module div div div, #leftcol div.moduletable_menu div div div, #leftcol div.moduletable div div div{
+}
+#leftcol div.module_menu div div div div, #leftcol div.module div div div div, #leftcol div.moduletable_menu div div div div, #leftcol div.moduletable div div div div {background: transparent;}
+#leftcol div.module_menu , #leftcol div.module, #leftcol div.moduletable, #leftcol div.moduletable_menu {
+} 
+
+#leftcol a:link, #leftcol a:visited {color:#4e6d09;}
+#leftcol a:hover, #leftcol a:active {color:#7b3c04;}
+
+/**********************/
+/*** Right Column ***/
+/**********************/
+#rightcol h3{
+	color: #000;
+}
+
+#rightcol div.module_menu div div, #rightcol div.module div div, #rightcol div.moduletable_menu div div, #rightcol div.moduletable div div{
+}
+#rightcol div.module_menu div div div, #rightcol div.module div div div, #rightcol div.moduletable_menu div div div, #rightcol div.moduletable div div div{
+}
+#rightcol div.module_menu div div div div, #rightcol div.module div div div div, #rightcol div.moduletable_menu div div div div, #rightcol div.moduletable div div div div {background: transparent;}
+#rightcol div.module_menu , #rightcol div.module, #rightcol div.moduletable, #rightcol div.moduletable_menu {
+} 
+
+#rightcol a:link, #rightcol a:visited {color:#4e6d09;}
+#rightcol a:hover, #rightcol a:active {color:#7b3c04;}
+
+/******************************************************************/
+/* Controls Link Icon appearance in side modules */
+/******************************************************************/
+#leftcol ul.menu li a,
+#leftcol ul.menu li ul li a,
+#rightcol ul.menu li a,
+#rightcol ul.menu li ul li a,
+#leftcol ul#mainlevel li a,
+#leftcol ul#mainlevel li ul li a,
+#leftcol ul.mostread li a,
+#rightcol ul.mostread li a,
+#leftcol ul.latestnews li a,
+#rightcol ul.latestnews li a,
+#leftcol .moduletable ul li a,
+#rightcol .moduletable ul li a {
+}
+
+#leftcol ul.menu li a:hover,
+#leftcol ul.menu li.current a,
+#leftcol ul.menu li ul li a:hover,
+#rightcol ul.menu li a:hover,
+#rightcol ul.menu li.current a,
+#rightcol ul.menu li ul li a:hover,
+#leftcol ul#mainlevel li a:hover,
+#leftcol ul#mainlevel li a#active_menu,
+#leftcol ul#mainlevel li ul li a:hover,
+#leftcol ul.mostread li a:hover,
+#rightcol ul.mostread li a:hover,
+#leftcol ul.latestnews li a:hover,
+#rightcol ul.latestnews li a:hover,
+#leftcol .moduletable ul li a:hover,
+#rightcol .moduletable ul li a:hover {
+	color:#7b3c04;
+}
+
+/**********************/
+/*** Main Content Menu ***/
+/**********************/
+#maincol_body h2 {color: #879308;}
+#maincol_body h3 {color: #000;}
+
+#pathway div.breadcrumbs{}
+#pathway div.breadcrumbs a{}
+
+/*** Controls publishing information: date, writer and hits ***/
+.article-info {color:#626262;}
+
+/*** Controls page navigation***/
+div.pagenavcounter{color:#626262;}
+
+.readmore a {
+	color:#000;
+	background: url(../images/bkg_readmore.gif) left no-repeat; 
+}
+
+/******************/
+/***  Footer  ***/
+/******************/
+#footer{background: url(../images/bkg_footer.jpg) top left repeat-x;}
+#footer h3{
+	color:#fff;
+}
+#footer p {
+	color:#fff;
+}
+
+#footer a:link, #footer a:visited {color:#78ff63;}
+#footer a:hover, #footer a:active {color:#f9ff63;}
+/******************/
+/***  Copyright  ***/
+/******************/
+
+#copyright {}
+#copyright, #copyright div {
+	color:#d0d0d0;
+}
+
+#copyright a:link, #copyright a:active, #copyright a:visited {
+	color:#78ff63;
+}
+
+.cols-1 {
+    display: block;
+    float: none !important;
+    margin: 0 !important;
+}
+.cols-2 .column-1 {
+    float: left;
+    width: 46%;
+}
+.cols-2 .column-2 {
+    float: right;
+    margin: 0;
+    width: 46%;
+}
+.cols-3 .column-1 {
+    float: left;
+    margin-right: 4%;
+    padding: 0 5px;
+    width: 29%;
+}
+.cols-3 .column-2 {
+    float: left;
+    margin-left: 0;
+    padding: 0 5px;
+    width: 29%;
+}
+.cols-3 .column-3 {
+    float: right;
+    padding: 0 5px;
+    width: 29%;
+}
+.items-row {
+    margin-bottom: 10px !important;
+    overflow: hidden;
+}
+.column-1, .column-2, .column-3 {
+    padding: 10px 5px;
+}
+.column-2 {
+    margin-left: 40%;
+    width: 55%;
+}
+.column-3 {
+    width: 30%;
+}
+
+/*#####################################
+NEW STYLES
+#####################################*/
+
